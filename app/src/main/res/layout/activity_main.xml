@@ -27,7 +27,7 @@
         app:layout_constraintEnd_toStartOf="@+id/pedra"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/resultado"
+        app:layout_constraintTop_toBottomOf="@+id/textResultado"
         app:srcCompat="@drawable/papel" />
 
     <ImageView
@@ -40,7 +40,7 @@
         app:layout_constraintEnd_toStartOf="@+id/tesoura"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/papel"
-        app:layout_constraintTop_toBottomOf="@+id/resultado"
+        app:layout_constraintTop_toBottomOf="@+id/textResultado"
         app:srcCompat="@drawable/pedra" />
 
     <ImageView
@@ -53,11 +53,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/pedra"
-        app:layout_constraintTop_toBottomOf="@+id/resultado"
+        app:layout_constraintTop_toBottomOf="@+id/textResultado"
         app:srcCompat="@drawable/tesoura" />
 
     <TextView
-        android:id="@+id/resultado"
+        android:id="@+id/textResultado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
